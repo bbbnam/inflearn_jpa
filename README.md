@@ -29,3 +29,7 @@
 - @Enumerated : enum 타입 매핑
 - @Lob : BLOB, CLOB 매핑
 - @Transient : 특정 필드를 컬럼에 매핑하지 않음(매핑 무시)
+
+## 기본키 매핑
+- 직접 할당 : @Id만 사용
+- 자동 생성 : @GeneratedValue
