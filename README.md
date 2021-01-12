@@ -33,3 +33,7 @@
 ## 기본키 매핑
 - 직접 할당 : @Id만 사용
 - 자동 생성 : @GeneratedValue
+
+순수 JPA를 쓸때에는 orderDate -> orderDate로 SQL로 그대로 가는데
+
+스프링 부트를 쓰게 되면 orderDate -> order_date 로 변경되게끔 하는게 기본으로 된다.
